@@ -1,7 +1,6 @@
 class switchlabel {
-	void fruit()
+	void isfruitAvailable(String fruit1)
 	{
-		var fruit1='Apple';
 		switch(fruit1)
 		{
 			case 'Apple':			
