@@ -1,21 +1,40 @@
 class switchlabel {
-	void sdemo(String name) {
-		switch(name) {
-      first: case 'orange':
-        print("Oranges are available in Shop"); 
-      case 'apple':
-				print("Apples are available in shop");
-				break;
-			case 'mango':
-				print("Apples are available in shop");
-				break;
-			case 'Bananas':
-				print("Bananas are available in shop");
-				break;
+	void fruit()
+	{
+		var fruit1='Apple';
+		switch(fruit1)
+		{
+			case 'Apple':			
+			continue cn;
+			
+			case 'APPLE':
+			{
+				print("apple is available");
+			}
+			break;
+
+			case 'APPle':
+			{
+				print("apple is available");
+			}
+			break;
+
+			case 'appLE':
+			{
+				print("apple is available");
+			}
+			break;
+			
+			cn:
+				case 1:
+				{
+					print("apple is not avaialable");
+				}
+	
 			default:
-				print("The Fruit is not listed in the shop");
-      continue first;
+			{
+				print("either your input is incorrect or apple is not available");
+			}
 		}
-    
 	}
 }
